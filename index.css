@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    font-size: 2rem;   
+    margin-left: 69%;
+}
+.item {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 .8rem; 
+}
+.caja-main {
+    width: 100%;
+}
+.logo, .barra-busqueda {
+    display: block;
+    max-width: 26%;
+    margin: 0 auto;
+}
+.img-boton {
+    max-width: 2rem;
+    padding: 0;
+}
+.lupa {
+    position: absolute;
+    top: 35.22vh;
+    left: 28.5%;
+    max-width: 10vh;
+    border: none;
+    background-color: transparent;
+}
+.barra-busqueda {
+    min-width: 40%;
+    margin-top: 1.5rem;
+    padding: 1.3rem 0;
+    padding-left: 5rem;
+    border-radius: 2.2rem;
+}
+.barra-busqueda:hover, .lupa:hover{
+    background-color: lightgrey;
+}
+/* .lupa:hover{
+    background-color: lightgrey;
+} */
+.boton {
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 82vh;
+    padding: .8rem 1rem;
+    border: none;
+    font-size: 1.5rem;
+}
+.boton:hover{
+    border: .1rem solid black;
+    background-color: lightgrey;
+}
+#second {
+    margin-left: 6vh;
+}
+main {
+    /* background-color: aquamarine; */
+    padding-bottom: 29vh;
+}
+footer{
+    background-color: lightgray;
+    padding-top: 5vh;
+    font-size: 1.6rem;
+}
+.region {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+    padding-left: 5rem;
+}
+section div {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.ul-right{
+    margin-left: 67vh;
+}
+li a:hover {
+    cursor: pointer;
+    color: rebeccapurple;
+}
